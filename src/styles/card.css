@@ -15,3 +15,8 @@
     background-color: var(--header);
     border-radius: 10px 10px 0 0;
 }
+
+.teamsHeader {
+    display: flex;
+    justify-content: space-around;
+}

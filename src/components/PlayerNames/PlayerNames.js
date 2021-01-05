@@ -1,6 +1,7 @@
 //players input
 import React from "react";
 import Input from '../input';
+import PlayerList from '../PlayerList';
 
 class playerNames extends React.Component {
     constructor(props) {
@@ -32,23 +33,24 @@ class playerNames extends React.Component {
         let { playerName } = this.state;
         
         return (
-            <section className="cardContainer">
-                <header className="cardHeader">
-                    <h2>enter your players</h2>
-                </header>
-                <div className="cardMain">
-                    <form onSubmit={ this.handleSubmit }>
-                        <section className="inputContainer1">
+            <>
+                <section className="cardContainer">
+                    <header className="cardHeader">
+                        <h2>enter your players</h2>
+                    </header>
+                    <div className="cardMain">
+                        <form onSubmit={ this.handleSubmit }>
                             <Input 
-                                label="Player 1 Name"
-                                handleChange={this.playerName}
+                                label="Player Name"
+                                handleChange={this.handlePlayerName}
                                 value={ playerName }
                                 type="text"
                             />
-                        </section>    
-                    </form>
-                </div>
-            </section>
+                        </form>
+                    </div>
+                </section>
+                <PlayerList /> 
+            </>
         );
     }
 }
