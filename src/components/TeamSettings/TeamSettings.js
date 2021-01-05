@@ -3,6 +3,7 @@
 // player amount
 import React from "react";
 import Input from '../input';
+import AddPlayers from '../PlayerNames/PlayerNames';
 
 class TeamSettings extends React.Component {
     constructor(props) {
@@ -35,35 +36,37 @@ class TeamSettings extends React.Component {
         let { team1Name, team2Name } = this.state;
         
         return (
-            <section className="cardContainer">
-                <header className="cardHeader">
-                    <h2>customise your teams</h2>
-                </header>
-                <div className="cardMain">
-                    <form onSubmit={ this.handleSubmit }>
-                        <section className="inputContainer1">
-                            <Input 
-                                label="Choose Team One Name"
-                                handleChange={this.handleTeam1Name}
-                                value={ team1Name }
+            <>
+                <section className="cardContainer">
+                    <header className="cardHeader">
+                        <h2>customise your teams</h2>
+                    </header>
+                    <div className="cardMain">
+                        <form onSubmit={ this.handleSubmit }>
+                            <section className="inputContainer1">
+                                <Input 
+                                    label="Choose Team One Name"
+                                    handleChange={this.handleTeam1Name}
+                                    value={ team1Name }
+                                    type="text"
+                                />
+                            </section>    
+                        </form>
+                            {/* <div className="teamDivider"></div> */}
+                        <form onSubmit={ this.handleSubmit }>
+                            <section className="inputContainer2">
+                                <Input 
+                                label="Choose Team Two Name"
+                                handleChange={this.handleTeam2Name}
+                                value={ team2Name }
                                 type="text"
                             />
-                        </section>
-                            
-                    </form>
-                        <div className="teamDivider"></div>
-                    <form onSubmit={ this.handleSubmit }>
-                        <section className="inputContainer2">
-                            <Input 
-                            label="Choose Team Two Name"
-                            handleChange={this.handleTeam2Name}
-                            value={ team2Name }
-                            type="text"
-                        />
-                        </section>
-                    </form>
-                </div>
-            </section>
+                            </section>
+                        </form>
+                    </div>
+                </section>
+                <AddPlayers />
+            </>
         );
     }
 }
