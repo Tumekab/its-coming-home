@@ -3,7 +3,8 @@
 // player amount
 import React from "react";
 import Input from '../input';
-import AddPlayers from '../PlayerNames/PlayerNames';
+import AddPlayers from '../PlayerNames';
+import PlayerList from '../PlayerList';
 
 class TeamSettings extends React.Component {
     constructor(props) {
@@ -60,12 +61,18 @@ class TeamSettings extends React.Component {
                                 handleChange={this.handleTeam2Name}
                                 value={ team2Name }
                                 type="text"
-                            />
+                                />
                             </section>
                         </form>
                     </div>
                 </section>
                 <AddPlayers />
+                <section className="cardContainer">
+                    <header className="cardHeader">
+                        <h2>your players</h2>
+                    </header>
+                    {/* <PlayerList /> */}
+                </section>
             </>
         );
     }

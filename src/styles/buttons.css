@@ -14,3 +14,9 @@ button {
 button:hover {
     border: solid var(--font);
 }
+
+.add-btn {
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;
+}

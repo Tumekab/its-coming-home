@@ -2,6 +2,7 @@
 import React from "react";
 import Input from '../input';
 import PlayerList from '../PlayerList';
+import Button from '../button';
 
 class playerNames extends React.Component {
     constructor(props) {
@@ -46,10 +47,15 @@ class playerNames extends React.Component {
                                 value={ playerName }
                                 type="text"
                             />
+                            <Button 
+                                className="btn add-btn"
+                                label= "Add Player"
+                                name= "Add Player"
+                            />
                         </form>
                     </div>
                 </section>
-                <PlayerList /> 
+                {/* <PlayerList />  */}
             </>
         );
     }
