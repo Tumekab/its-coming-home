@@ -1,4 +1,32 @@
-@font-face {
-    src: url(../../assets/fonts/Staatliches/Staatliches-Regular.ttf);
-    font-family: 'staat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+    color: var(--font);
+    font-family: 'Staatliches', cursive;
+}
+.title {
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-size: 5rem;
+    padding: 1rem;
+}
+.headerBG {
+    background-color: var(--header);
+}
+
+.subTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+ul {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    padding: 1rem;
 }

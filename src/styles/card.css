@@ -1,0 +1,18 @@
+.cardContainer {
+    display: grid;
+    border-radius: 10px; 
+    background-color: var(--cardColour);
+    margin: auto;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 90%;
+    box-shadow: 2px 7px 19px 0px rgba(0,0,0,0.51); 
+    -webkit-box-shadow: 2px 7px 19px 0px rgba(0,0,0,0.51);
+    -moz-box-shadow: 2px 7px 19px 0px rgba(0,0,0,0.51);
+}
+
+.cardHeader {
+    background-color: var(--header);
+    border-radius: 10px 10px 0 0;
+    
+}
