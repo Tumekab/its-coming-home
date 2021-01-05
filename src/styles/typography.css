@@ -12,6 +12,9 @@ body {
 }
 .headerBG {
     background-color: var(--header);
+    /* box-shadow: 2px 7px 19px 0px rgba(0,0,0,0.51); 
+    -webkit-box-shadow: 2px 7px 19px 0px rgba(0,0,0,0.51);
+    -moz-box-shadow: 2px 7px 19px 0px rgba(0,0,0,0.51); */
 }
 
 .subTitle {
