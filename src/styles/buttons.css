@@ -1,0 +1,16 @@
+.btn {
+    background-color: var(--header);
+    border: none;
+    border-radius: 20px;
+    color: var(--font);
+    font-family: 'Staatliches', sans-serif;
+    text-align: center;
+    padding: .5rem 2rem;
+    font-size: calc(12px + 1.5vw);
+}
+button {
+    cursor: pointer;
+}
+button:hover {
+    border: solid var(--font);
+}

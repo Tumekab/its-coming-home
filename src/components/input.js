@@ -1,7 +1,7 @@
 
 const Input = ({ name, label, handleChange, value, type}) => (
     <>
-        <label htmlFor={name} className="inputLabel">{ label }</label>
+        <label htmlFor={name} className="inputLabel playerLabel">{ label }</label>
         <input
             id={name}
             type={ type }

@@ -1,13 +1,9 @@
 import React from "react";
+import Button from "./button";
+import { Link } from "react-router-dom";
 
 const Homepage = () => (
     <>
-        <main>
-            <header className="headerBG">
-                <h1 className="title">it's coming home</h1>
-            </header>
-            <h3 className="subTitle">a 5-a-side team generator</h3>
-        </main>
         <section className="cardContainer">
             <header className="cardHeader">
                 <h2>how it works</h2>
@@ -21,6 +17,13 @@ const Homepage = () => (
                 </ul>
             </div>
         </section>
+        <Link to={`/team-settings`}>
+            <Button 
+                className="btn"
+                label= "Settings"
+                name= "Settings"
+            />
+        </Link>
     </>
 )
 

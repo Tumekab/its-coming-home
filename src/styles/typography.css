@@ -2,7 +2,7 @@
 
 body {
     color: var(--font);
-    font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches', sans-serif;
 }
 .title {
     text-align: center;
