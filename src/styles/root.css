@@ -1,0 +1,14 @@
+:root {
+    --background: #576675,
+    --font: #ECEBEB,
+    --cardColour: #4D7D8C,
+    --header: #303840,
+    --buttonHolder: #4E595C,
+
+}
+
+/* to use */
+/* property: var(--name); 
+var(--cream)
+var(--black)
+*/
