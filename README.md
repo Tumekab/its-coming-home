@@ -1,5 +1,5 @@
 # It's Coming Home: a 5-a-side football team generator.
-This app was produced to fulfill the brief of the individual technical challenge set at the end of the DevelopMe Fellowship. This is the repository for the front-end of the app. To see the app visit [here](https://tumekab.github.io/tech-challenge/#/). Mock up design is [here](https://www.figma.com/file/RcJDSXs8wxnqpxcnsA8QtE/It-s-Coming-Home?node-id=0%3A1.)
+This app was produced to fulfill the brief of the individual technical challenge set at the end of the DevelopMe Fellowship. This is the repository for the front-end of the app. To see the app visit [here](https://tumekab.github.io/tech-challenge/#/). Mock up design is [here](https://www.figma.com/file/RcJDSXs8wxnqpxcnsA8QtE/It-s-Coming-Home?node-id=0%3A1).
 
 ## Brief
 The core of the challenge is to create a tool which randomly picks 5-a-side football teams from a list of 10 names.
@@ -30,7 +30,7 @@ Just selecting your teams isn't enough? Well you can easily keep track of your g
 - Added ability to save a match that gets posted to an API 
 - Added ability to view all saved matches in a Match History table from an API
 
-## User Experience
+### User Experience
 - A visual confirm that team names have been saved
 - A visual indicator that 10 names have been added to the list
 
