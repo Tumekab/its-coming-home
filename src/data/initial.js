@@ -1,6 +1,6 @@
 const initial = {
-    team1Name: "",
-    team2Name: "",
+    team1Name: "Team 1",
+    team2Name: "Team 2",
     team1Players: [],
     team2Players: [],
     allPlayers: [],
