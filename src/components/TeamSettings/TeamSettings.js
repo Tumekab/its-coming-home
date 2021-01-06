@@ -33,6 +33,7 @@ class TeamSettings extends React.Component {
     handleSubmit = (event) => {  
         event.preventDefault();
         this.props.handleSubmit({ ...this.state });
+        this.setState({ team1Name: "", team2Name: "" });
     }
 
     render(){
