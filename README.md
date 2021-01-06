@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# It's Come Home: a 5-a-side football team generator.
+This app was produced to fulfill the brief of the individual technical challenge set at the end of the DevelopMe Fellowship. This is the repository for the front-end of the app. To see the app visit [here](https://tumekab.github.io/tech-challenge/#/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Brief
+The core of the challenge is to create a tool which randomly picks 5-a-side football teams from a list of 10 names.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Team Settings
+Here you can add you team names and input your team players.
 
-### `npm start`
+### Team Selection
+Here you can view your randomly selected teams.
 
-Runs the app in the development mode.\
+### Reshuffle Button
+Not keen on your team players? Just hit the reshuffle button and you can have new team mates in no time.
+
+### Reset button
+Need to start over? This is covered to, just hit the reset button and it'll take you back to the team settings page where you can input your details from the start.
+
+### Team Scores
+Just selecting your teams isn't enough? Well you can easily keep track of your game score with the score card displayed right along your team selections.
+
+### Saving Your Match
+Here you can save your match details which get sent to an API for later viewing.
+
+### Match History
+Here you can view said previous matches that have been saved to the API.
+
+## Improvements to the App
+
+### Features
+- Added ability to delete a player in the player list
+- Added ability to delete a match in the Match History page - a delete route is already set up in the API
+- Added ability to randomly generate team names from the API
+- Added ability to have any number of players be split into even teams
+
+## Version Management
+For this project I used Git and GitHub to version manage. 
+
+## To clone this project
+
+-  In your terminal, cd into the directory on your local machine where you would like the project to be saved <br/>
+`cd {directory}`
+
+- Clone the repository to your local machine using this command in your terminal </br>
+`git clone {git@github.com:Tumekab/football-team-generator.git}`
+
+- Then run npm install to install all the required packages for the project</br>
+`npm install`
+
+- Finally run npm start to run the app locally to develop in </br>
+`npm start`
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
