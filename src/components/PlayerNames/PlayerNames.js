@@ -1,7 +1,6 @@
 //players input
 import React from "react";
 import Input from '../input';
-import PlayerList from '../PlayerList';
 import Button from '../button';
 
 class playerNames extends React.Component {
@@ -10,6 +9,7 @@ class playerNames extends React.Component {
 
         this.state = {
             playerName: "",
+            teamsConfirmed: this.props.teamsConfirmed,
         };
 
         this.handlePlayerName = this.handlePlayerName.bind(this);
@@ -32,6 +32,7 @@ class playerNames extends React.Component {
 
     render(){
         let { playerName } = this.state;
+        let { teamsConfirmed } = this.props;
         
         return (
             <>
@@ -55,7 +56,6 @@ class playerNames extends React.Component {
                         </form>
                     </div>
                 </section>
-                {/* <PlayerList />  */}
             </>
         );
     }

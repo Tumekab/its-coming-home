@@ -4,6 +4,14 @@ body {
     color: var(--font);
     font-family: 'Staatliches', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: var(--font);
+}
+a:hover{
+    text-decoration: underline;
+}
 .title {
     text-align: center;
     /* text-transform: uppercase; */

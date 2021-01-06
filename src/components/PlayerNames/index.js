@@ -2,6 +2,12 @@ import { connect } from "react-redux";
 import PlayerNames from "./PlayerNames";
 import { addPlayer } from "../../data/actions/state";
 
+const mapStateToProps = ({ teamsConfirmed }) => {
+    return {
+        teamsConfirmed: teamsConfirmed,
+    }
+}
+
 const mapDispatchToProps = dispatch => {
     return {
         handleSubmit: (data) => {
@@ -10,4 +16,4 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect(null, mapDispatchToProps)(PlayerNames);
+export default connect(mapStateToProps, mapDispatchToProps)(PlayerNames);

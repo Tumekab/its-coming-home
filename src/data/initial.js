@@ -13,3 +13,8 @@ const initial = {
 }
 
 export default initial;
+
+// createdTeams: {
+//     team1Players: [],
+//     team2Players: [], 
+// },

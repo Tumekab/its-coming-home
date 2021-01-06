@@ -6,7 +6,7 @@ import './styles/main.css';
 import Header from './components/Header';
 import Homepage from './components/homepage';
 import TeamSettings from './components/TeamSettings';
-import TeamSelections from './components/DisplayTeams/DisplayTeams';
+import TeamSelections from './components/DisplayTeams';
 
 function App() {
   return (

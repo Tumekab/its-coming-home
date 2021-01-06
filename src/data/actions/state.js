@@ -11,3 +11,11 @@ export const addPlayer = (data) => {
         data: data,
     }
 };
+
+export const splitIntoTeams = ( data ) => {
+    return {
+        type: "GENERATE_TEAMS",
+        teamOne: data.team1Players,
+        teamTwo: data.team2Players,
+    }
+};

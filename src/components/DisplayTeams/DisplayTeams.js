@@ -1,18 +1,37 @@
 //display the teams that have been created
 
-const displayTeams = () => {
+const displayTeams = ({ team1Players, team1Name, team2Players, team2Name }) => {
     return (
-        <section className="cardContainer">
-                <header className="cardHeader teamsHeader">
-                    <h2>Team One</h2>
-                    <h2>Team Two</h2>
+        <>
+            <section className="cardContainer">
+                    <header className="cardHeader">
+                        <h2>{team1Name}</h2>
+                    </header>
+                    <div className="cardMain">
+                        <ul>
+                            { team1Players.map((player, index) => (
+                                <li key={ index }>
+                                    <p>{ player.name }</p>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+            </section>
+            <section className="cardContainer">
+                <header className="cardHeader">
+                    <h2>{team2Name}</h2>
                 </header>
-                <div className="cardMain">
-                    <h3>display teams here</h3>
-                </div>
-        </section>
-
-            
+                    <div className="cardMain">
+                        <ul>
+                            {team2Players.map((player, index) => (
+                                <li key={ index }>
+                                    <p>{ player.name }</p>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+            </section>
+        </>    
     )
 }
 
