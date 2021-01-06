@@ -1,5 +1,5 @@
-# It's Come Home: a 5-a-side football team generator.
-This app was produced to fulfill the brief of the individual technical challenge set at the end of the DevelopMe Fellowship. This is the repository for the front-end of the app. To see the app visit [here](https://tumekab.github.io/tech-challenge/#/).
+# It's Coming Home: a 5-a-side football team generator.
+This app was produced to fulfill the brief of the individual technical challenge set at the end of the DevelopMe Fellowship. This is the repository for the front-end of the app. To see the app visit [here](https://tumekab.github.io/tech-challenge/#/). Mock up design is [here](https://www.figma.com/file/RcJDSXs8wxnqpxcnsA8QtE/It-s-Coming-Home?node-id=0%3A1.)
 
 ## Brief
 The core of the challenge is to create a tool which randomly picks 5-a-side football teams from a list of 10 names.
@@ -21,19 +21,18 @@ Need to start over? This is covered to, just hit the reset button and it'll take
 ### Team Scores
 Just selecting your teams isn't enough? Well you can easily keep track of your game score with the score card displayed right along your team selections.
 
-### Saving Your Match
-Here you can save your match details which get sent to an API for later viewing.
-
-### Match History
-Here you can view said previous matches that have been saved to the API.
-
 ## Improvements to the App
 
 ### Features
 - Added ability to delete a player in the player list
-- Added ability to delete a match in the Match History page - a delete route is already set up in the API
-- Added ability to randomly generate team names from the API
 - Added ability to have any number of players be split into even teams
+- Added ability to randomly generate team names from an API
+- Added ability to save a match that gets posted to an API 
+- Added ability to view all saved matches in a Match History table from an API
+
+## User Experience
+- A visual confirm that team names have been saved
+- A visual indicator that 10 names have been added to the list
 
 ## Version Management
 For this project I used Git and GitHub to version manage. 
