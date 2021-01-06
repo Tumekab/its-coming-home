@@ -46,18 +46,18 @@ class TeamSettings extends React.Component {
                     </header>
                     <div className="cardMain">
                         <form onSubmit={ this.handleSubmit }>
-                            <section className="inputContainer1">
+                            <section className="inputContainer">
                                 <Input 
                                     label="Choose Team One Name"
                                     handleChange={this.handleTeam1Name}
                                     value={ team1Name }
                                     type="text"
                                 />
-                            </section>    
-                        </form>
+                            {/* </section>     */}
+                      
                             {/* <div className="teamDivider"></div> */}
-                        <form onSubmit={ this.handleSubmit }>
-                            <section className="inputContainer2">
+                        {/* <section className="inputContainer"> */}
+                            
                                 <Input 
                                 label="Choose Team Two Name"
                                 handleChange={this.handleTeam2Name}
@@ -70,6 +70,7 @@ class TeamSettings extends React.Component {
                                 label= "confirm"
                                 name= "confirm"
                             />
+                            {/* </section> */}
                         </form>
                     </div>
                 </section>

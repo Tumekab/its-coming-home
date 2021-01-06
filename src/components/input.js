@@ -1,6 +1,6 @@
 
 const Input = ({ name, label, handleChange, value, type}) => (
-    <>
+    <div>
         <label htmlFor={name} className="inputLabel playerLabel">{ label }</label>
         <input
             id={name}
@@ -8,7 +8,7 @@ const Input = ({ name, label, handleChange, value, type}) => (
             onChange={ handleChange }
             value= { value }
         />
-    </>
+    </div>
 )
 
 export default Input;

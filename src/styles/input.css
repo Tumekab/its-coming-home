@@ -14,16 +14,14 @@ input {
     font-size: 2rem;
 }
 
-/* .inputContainer1 {
-    float: left;
-    padding: 3rem;
-}
-
-.inputContainer2 {
-    float: right;
-    padding: 3rem;
-} */
-
 .playerLabel {
     margin-top: 2rem;
+}
+
+/* tablet, landscape iPad, lo-res laptops and desktops */
+@media (min-width:961px) {
+    .inputContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
