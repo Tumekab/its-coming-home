@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/tech-challenge/static/css/main.e223f26a.chunk.css",
-    "main.js": "/tech-challenge/static/js/main.0860993e.chunk.js",
-    "main.js.map": "/tech-challenge/static/js/main.0860993e.chunk.js.map",
-    "runtime-main.js": "/tech-challenge/static/js/runtime-main.0a3b7277.js",
-    "runtime-main.js.map": "/tech-challenge/static/js/runtime-main.0a3b7277.js.map",
-    "static/js/2.0a2e5cda.chunk.js": "/tech-challenge/static/js/2.0a2e5cda.chunk.js",
-    "static/js/2.0a2e5cda.chunk.js.map": "/tech-challenge/static/js/2.0a2e5cda.chunk.js.map",
-    "static/js/3.6db2cc98.chunk.js": "/tech-challenge/static/js/3.6db2cc98.chunk.js",
-    "static/js/3.6db2cc98.chunk.js.map": "/tech-challenge/static/js/3.6db2cc98.chunk.js.map",
-    "index.html": "/tech-challenge/index.html",
-    "static/css/main.e223f26a.chunk.css.map": "/tech-challenge/static/css/main.e223f26a.chunk.css.map",
-    "static/js/2.0a2e5cda.chunk.js.LICENSE.txt": "/tech-challenge/static/js/2.0a2e5cda.chunk.js.LICENSE.txt",
-    "static/media/github.d5e23d73.svg": "/tech-challenge/static/media/github.d5e23d73.svg"
+    "main.css": "/football-team-generator/static/css/main.e223f26a.chunk.css",
+    "main.js": "/football-team-generator/static/js/main.60796ad1.chunk.js",
+    "main.js.map": "/football-team-generator/static/js/main.60796ad1.chunk.js.map",
+    "runtime-main.js": "/football-team-generator/static/js/runtime-main.64c50354.js",
+    "runtime-main.js.map": "/football-team-generator/static/js/runtime-main.64c50354.js.map",
+    "static/js/2.0a2e5cda.chunk.js": "/football-team-generator/static/js/2.0a2e5cda.chunk.js",
+    "static/js/2.0a2e5cda.chunk.js.map": "/football-team-generator/static/js/2.0a2e5cda.chunk.js.map",
+    "static/js/3.6db2cc98.chunk.js": "/football-team-generator/static/js/3.6db2cc98.chunk.js",
+    "static/js/3.6db2cc98.chunk.js.map": "/football-team-generator/static/js/3.6db2cc98.chunk.js.map",
+    "index.html": "/football-team-generator/index.html",
+    "static/css/main.e223f26a.chunk.css.map": "/football-team-generator/static/css/main.e223f26a.chunk.css.map",
+    "static/js/2.0a2e5cda.chunk.js.LICENSE.txt": "/football-team-generator/static/js/2.0a2e5cda.chunk.js.LICENSE.txt",
+    "static/media/github.d5e23d73.svg": "/football-team-generator/static/media/github.d5e23d73.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a3b7277.js",
+    "static/js/runtime-main.64c50354.js",
     "static/js/2.0a2e5cda.chunk.js",
     "static/css/main.e223f26a.chunk.css",
-    "static/js/main.0860993e.chunk.js"
+    "static/js/main.60796ad1.chunk.js"
   ]
 }
