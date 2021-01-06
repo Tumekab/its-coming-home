@@ -2,7 +2,7 @@
 
 const displayTeams = ({ team1Players, team1Name, team2Players, team2Name }) => {
     return (
-        <>
+        <main className="cardGrid">
             <section className="cardContainer">
                     <header className="cardHeader">
                         <h2>{team1Name}</h2>
@@ -31,7 +31,7 @@ const displayTeams = ({ team1Players, team1Name, team2Players, team2Name }) => {
                         </ul>
                     </div>
             </section>
-        </>    
+        </main>    
     )
 }
 

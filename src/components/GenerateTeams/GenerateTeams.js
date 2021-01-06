@@ -1,7 +1,7 @@
 const GenerateTeams = ({ handleClick }) => {
     return (
         <button 
-            className="btn-settings teams-button"
+            className="btn generateBtn"
             onClick={ handleClick }>
             generate teams
         </button>

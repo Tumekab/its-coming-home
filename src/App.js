@@ -1,7 +1,4 @@
-import {
-  HashRouter as Router,
-  Route, Switch
-  } from "react-router-dom";
+import { HashRouter as Router,Route, Switch } from "react-router-dom";
 import './styles/main.css';
 import Header from './components/Header';
 import Homepage from './components/homepage';

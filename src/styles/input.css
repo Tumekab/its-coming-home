@@ -14,7 +14,7 @@ input {
     font-size: 2rem;
 }
 
-.inputContainer1 {
+/* .inputContainer1 {
     float: left;
     padding: 3rem;
 }
@@ -22,7 +22,7 @@ input {
 .inputContainer2 {
     float: right;
     padding: 3rem;
-}
+} */
 
 .playerLabel {
     margin-top: 2rem;

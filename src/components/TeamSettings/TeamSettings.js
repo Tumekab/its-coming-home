@@ -5,6 +5,8 @@ import React from "react";
 import Input from '../input';
 import AddPlayers from '../PlayerNames';
 import PlayerList from '../PlayerList';
+import GenerateTeams from "../GenerateTeams";
+import Button from '../button';
 
 class TeamSettings extends React.Component {
     constructor(props) {
@@ -63,6 +65,11 @@ class TeamSettings extends React.Component {
                                 type="text"
                                 />
                             </section>
+                            <Button 
+                                className="btn confirmBtn"
+                                label= "confirm"
+                                name= "confirm"
+                            />
                         </form>
                     </div>
                 </section>
@@ -73,6 +80,7 @@ class TeamSettings extends React.Component {
                     </header>
                     <PlayerList />
                 </section>
+                <GenerateTeams />
             </>
         );
     }

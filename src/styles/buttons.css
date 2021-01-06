@@ -25,3 +25,12 @@ button:hover {
     margin: auto;
     margin-bottom: 2rem;
 }
+
+.generateBtn {
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+.confirmBtn {
+    margin-bottom: 2rem;
+}
