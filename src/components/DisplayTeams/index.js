@@ -1,7 +1,8 @@
 import { connect } from 'react-redux';
 import DisplayTeams from './DisplayTeams';
+import { reset } from '../../data/actions/state';
+import history from '../../history';
 
-// state
 const mapStateToProps = ({ team1Players, team1Name, team2Players, team2Name }) => {
     return {
         team1Players: team1Players,
@@ -11,4 +12,13 @@ const mapStateToProps = ({ team1Players, team1Name, team2Players, team2Name }) =
     }
 }
 
-export default connect(mapStateToProps)(DisplayTeams);
+const mapDispatchToProps = (dispatch) => {
+    return {
+        handleReset: () => { 
+            dispatch(reset())
+            history.push("/team-settings");
+        }
+    };
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(DisplayTeams);

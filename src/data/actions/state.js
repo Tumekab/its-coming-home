@@ -19,3 +19,9 @@ export const splitIntoTeams = ( data ) => {
         teamTwo: data.team2Players,
     }
 };
+
+export const reset = () => {
+    return {
+        type: "RESET",
+    };
+};
