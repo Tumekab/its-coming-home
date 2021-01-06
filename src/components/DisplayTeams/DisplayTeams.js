@@ -1,5 +1,8 @@
 //display the teams that have been created
 
+import Team1ScoreCard from '../Team1ScoreCard';
+import Team2ScoreCard from '../Team2ScoreCard';
+
 
 const displayTeams = ({ team1Players, team1Name, team2Players, team2Name, handleReset }) => {
     return (
@@ -18,6 +21,7 @@ const displayTeams = ({ team1Players, team1Name, team2Players, team2Name, handle
                                 ))}
                             </ul>
                         </div>
+                        <Team1ScoreCard />
                 </section>
                 <section className="cardContainer">
                     <header className="cardHeader">
@@ -32,6 +36,7 @@ const displayTeams = ({ team1Players, team1Name, team2Players, team2Name, handle
                                 ))}
                             </ul>
                         </div>
+                        <Team2ScoreCard />
                 </section>
                 
             </main> 

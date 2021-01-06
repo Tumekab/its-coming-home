@@ -20,8 +20,21 @@ export const splitIntoTeams = ( data ) => {
     }
 };
 
+export const updateTeam1Score = ( ) => {
+    return {
+        type: "UPDATE_TEAM_1_SCORE",
+    };
+}
+
+export const updateTeam2Score = () => {
+    return {
+        type: "UPDATE_TEAM_2_SCORE",
+    };
+}
+
 export const reset = () => {
     return {
         type: "RESET",
     };
 };
+

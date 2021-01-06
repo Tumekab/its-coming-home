@@ -16,6 +16,24 @@
     border-radius: 10px 10px 0 0;
 }
 
+/* score cards */
+.scoreBg {
+    background-color: var(--buttonHolder);
+    font-size: calc(100px + 1.5vw);
+    width: 45%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px) {
+    .scoreBg {
+        width: 30%;
+    }
+}
 
 /* tablet, landscape iPad, lo-res laptops and desktops */
 @media (min-width:961px) {

@@ -31,8 +31,22 @@ const splitIntoTeams = (state, action) => {
       team2Players: team2Players,
       teamName1: action.team1Name,
       teamName2: action.team2Name,
-  };
-};
+  }
+}
+
+const updateTeam1Score = (state) => {
+  return {
+      ...state,
+      team1Score: state.team1Score + 1,
+  }
+}
+const updateTeam2Score = (state) => {
+  return {
+      ...state,
+      team2Score: state.team2Score + 1,
+  }
+}
+
 
 const reducer = (state, action) => {
     switch (action.type) {
@@ -42,6 +56,10 @@ const reducer = (state, action) => {
         return addPlayer(state, action);
       case "GENERATE_TEAMS":
         return splitIntoTeams(state, action);
+      case "UPDATE_TEAM_1_SCORE":
+        return updateTeam1Score(state, action);
+      case "UPDATE_TEAM_2_SCORE":
+        return updateTeam2Score(state, action);
       case "RESET": 
       return {
         ...initial,
