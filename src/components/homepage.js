@@ -11,9 +11,9 @@ const Homepage = () => (
             <div className="cardMain">
                 <ul>
                     <li>pick your team names</li>
-                    <li>pick your team colours</li>
                     <li>add your players</li>
                     <li>generate your teams</li>
+                    <li>count your goals</li>
                 </ul>
             </div>
         </section>

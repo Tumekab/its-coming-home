@@ -4,7 +4,7 @@ import Team1ScoreCard from '../Team1ScoreCard';
 import Team2ScoreCard from '../Team2ScoreCard';
 
 
-const displayTeams = ({ team1Players, team1Name, team2Players, team2Name, handleReset }) => {
+const displayTeams = ({ team1Players, team1Name, team2Players, team2Name, handleReset, handleShuffle }) => {
     return (
         <>
             <main className="cardGrid">
@@ -21,6 +21,7 @@ const displayTeams = ({ team1Players, team1Name, team2Players, team2Name, handle
                                 ))}
                             </ul>
                         </div>
+                        <div className="cardDivider"></div>
                         <Team1ScoreCard />
                 </section>
                 <section className="cardContainer">
@@ -36,6 +37,7 @@ const displayTeams = ({ team1Players, team1Name, team2Players, team2Name, handle
                                 ))}
                             </ul>
                         </div>
+                        <div className="cardDivider"></div>
                         <Team2ScoreCard />
                 </section>
                 
@@ -46,7 +48,14 @@ const displayTeams = ({ team1Players, team1Name, team2Players, team2Name, handle
                 name= "reset"
                 onClick={ handleReset }>
                 reset
-            </button>   
+            </button> 
+            <button
+                className="btn add-btn"
+                label= "reshuffle"
+                name= "reshuffle"
+                onClick={ handleShuffle }>
+                reshuffle
+            </button>    
         </>
     )
 }

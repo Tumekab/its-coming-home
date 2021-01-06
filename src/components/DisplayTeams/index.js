@@ -1,6 +1,7 @@
 import { connect } from 'react-redux';
 import DisplayTeams from './DisplayTeams';
 import { reset } from '../../data/actions/state';
+import { splitIntoTeams } from "../../data/actions/state";
 import history from '../../history';
 
 const mapStateToProps = ({ team1Players, team1Name, team2Players, team2Name }) => {
@@ -17,6 +18,9 @@ const mapDispatchToProps = (dispatch) => {
         handleReset: () => { 
             dispatch(reset())
             history.push("/team-settings");
+        },
+        handleShuffle: (data) => { 
+            dispatch(splitIntoTeams(data));
         }
     };
 }

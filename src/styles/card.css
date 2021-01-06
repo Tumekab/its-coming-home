@@ -27,6 +27,14 @@
     border-radius: 10px;
 }
 
+.cardDivider {
+    width: 80%;
+    background: linear-gradient(90deg, var(--background), var(--buttonHolder) 20% 80%, var(--background));
+    height: 2px;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
 
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width:641px) {
