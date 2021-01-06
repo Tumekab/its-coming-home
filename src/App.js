@@ -1,7 +1,8 @@
-import { HashRouter as Router,Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import './styles/main.css';
 import Header from './components/Header';
 import Homepage from './components/homepage';
+import Footer from './components/footer';
 import TeamSettings from './components/TeamSettings';
 import TeamSelections from './components/DisplayTeams';
 // import MatchHistory from './components/MatchHistory';
@@ -24,6 +25,7 @@ function App() {
             <MatchHistory />
           </Route> */}
         </Switch>
+        <Footer/>
     </Router>
   );
 }

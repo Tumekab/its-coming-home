@@ -2,8 +2,9 @@ import React from "react";
 import Button from "./button";
 import { Link } from "react-router-dom";
 
+
 const Homepage = () => (
-    <>
+    <main>
         <section className="cardContainer infoContainer">
             <header className="cardHeader">
                 <h2>how it works</h2>
@@ -24,7 +25,7 @@ const Homepage = () => (
                 name= "Settings"
             />
         </Link>
-    </>
+    </main>
 )
 
 export default Homepage;
