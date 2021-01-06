@@ -71,7 +71,7 @@ class TeamSettings extends React.Component {
                     <header className="cardHeader">
                         <h2>your players</h2>
                     </header>
-                    {/* <PlayerList /> */}
+                    <PlayerList />
                 </section>
             </>
         );

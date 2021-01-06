@@ -11,3 +11,5 @@ const initial = {
     teamsConfirmed: false,
     playerAmount: 5,
 }
+
+export default initial;

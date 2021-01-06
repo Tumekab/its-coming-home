@@ -19,7 +19,7 @@ const Homepage = () => (
         </section>
         <Link to={`/team-settings`}>
             <Button 
-                className="btn"
+                className="btn btnSettings"
                 label= "Settings"
                 name= "Settings"
             />

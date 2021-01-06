@@ -1,12 +1,12 @@
 const playerList = ({ allPlayers }) => {
     return (
-        <>
-           { allPlayers.map((player, index)=> (
+        <div className="cardMain">
+            { allPlayers.map((player, index)=> (
                 <li key={ index }>
                     <p>{player.name}</p>   
                 </li> 
             ))} 
-        </>
+        </div>  
     )
 }
 

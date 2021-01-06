@@ -25,10 +25,10 @@ const reducer = (state, action) => {
     //     return splitIntoTeams(state, action);
     //   case "SAVE_GAMES": 
     //     return saveGamesReducer(state, action);
-    //   case "RESET": 
-    //   return {
-    //     ...initial,
-    //   };
+      case "RESET": 
+      return {
+        ...initial,
+      };
       default: return state;
     };
 };

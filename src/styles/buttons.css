@@ -8,6 +8,11 @@
     padding: .5rem 2rem;
     font-size: calc(12px + 1.5vw);
 }
+.btnSettings {
+    display: flex;
+    margin: auto;
+    margin-bottom: 2rem;
+}
 button {
     cursor: pointer;
 }
