@@ -47,6 +47,14 @@ const updateTeam2Score = (state) => {
   }
 }
 
+//saving games reducer
+const saveGamesToApi = (state, { previousGames }) => {
+  return {
+      ...state,
+      previousGames,
+      gamesLoaded: true
+  }
+}
 
 const reducer = (state, action) => {
     switch (action.type) {
@@ -64,6 +72,8 @@ const reducer = (state, action) => {
       return {
         ...initial,
       };
+      case "SAVE_GAMES": 
+        return saveGamesToApi(state, action);
       default: return state;
     };
 };

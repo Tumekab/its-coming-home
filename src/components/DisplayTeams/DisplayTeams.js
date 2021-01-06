@@ -54,7 +54,7 @@ const displayTeams = ({ team1Players, team1Name, team2Players, team2Name, handle
                 label= "reshuffle"
                 name= "reshuffle"
                 onClick={ handleShuffle }>
-                reshuffle
+                reshuffle teams
             </button>    
         </>
     )

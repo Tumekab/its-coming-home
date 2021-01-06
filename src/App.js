@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Homepage from './components/homepage';
 import TeamSettings from './components/TeamSettings';
 import TeamSelections from './components/DisplayTeams';
+// import MatchHistory from './components/MatchHistory';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           <Route exact path='/team-selection'>
             <TeamSelections />
           </Route>
+          {/* <Route exact path='/match-history'>
+            <MatchHistory />
+          </Route> */}
         </Switch>
     </Router>
   );

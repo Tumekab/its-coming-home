@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Homepage = () => (
     <>
-        <section className="cardContainer">
+        <section className="cardContainer infoContainer">
             <header className="cardHeader">
                 <h2>how it works</h2>
             </header>
