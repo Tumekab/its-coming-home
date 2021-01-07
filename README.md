@@ -9,7 +9,7 @@ The core of the challenge is to create a tool which randomly picks 5-a-side foot
 ## Features
 
 ### Team Settings
-Here you can add you team names and input your team players.
+Here you can add your team names and input your team players.
 
 ### Team Selection
 Here you can view your randomly selected teams.
@@ -33,7 +33,7 @@ Just selecting your teams isn't enough? Well you can easily keep track of your g
 - Added ability to view all saved matches in a Match History table from an API
 
 ### User Experience
-- A visual confirm that team names have been saved
+- A visual confirmation that team names have been saved
 - A visual indicator that 10 names have been added to the list
 
 ## Version Management
