@@ -38,6 +38,8 @@ export const reset = () => {
     };
 };
 
+// for future API features
+
 // export const saveGames = (data) => {
 //     return {
 //         type: "SAVE_GAMES",

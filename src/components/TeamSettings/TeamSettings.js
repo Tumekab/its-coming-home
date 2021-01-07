@@ -1,6 +1,5 @@
 // team names
-//team colours 
-// player amount
+
 import React from "react";
 import Input from '../input';
 import AddPlayers from '../PlayerNames';
@@ -54,11 +53,6 @@ class TeamSettings extends React.Component {
                                     value={ team1Name }
                                     type="text"
                                 />
-                            {/* </section>     */}
-                      
-                            {/* <div className="teamDivider"></div> */}
-                        {/* <section className="inputContainer"> */}
-                            
                                 <Input 
                                 label="Choose Team Two Name"
                                 handleChange={this.handleTeam2Name}
@@ -71,7 +65,6 @@ class TeamSettings extends React.Component {
                                 label= "confirm"
                                 name= "confirm"
                             />
-                            {/* </section> */}
                         </form>
                     </div>
                 </section>

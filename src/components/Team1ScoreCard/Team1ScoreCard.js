@@ -12,7 +12,7 @@ const Team1ScoreCard = ({ team1Name, team1Score, handleClick}) => {
                       className="btn plusBtn">+</button>
                   </div>
             </div>
-         </>
+        </>
     )
 }
 

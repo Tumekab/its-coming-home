@@ -22,7 +22,7 @@ const displayTeams = ({ team1Players, team1Name, team2Players, team2Name, handle
                             </ul>
                         </div>
                         <div className="cardDivider"></div>
-                        <Team1ScoreCard />
+                    <Team1ScoreCard />
                 </section>
                 <section className="cardContainer">
                     <header className="cardHeader">
@@ -38,9 +38,8 @@ const displayTeams = ({ team1Players, team1Name, team2Players, team2Name, handle
                             </ul>
                         </div>
                         <div className="cardDivider"></div>
-                        <Team2ScoreCard />
+                    <Team2ScoreCard />
                 </section>
-                
             </main> 
             <button
                 className="btn add-btn"

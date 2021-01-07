@@ -47,15 +47,17 @@ const updateTeam2Score = (state) => {
   }
 }
 
-//saving games reducer
-const saveGamesToApi = (state, { previousGames }) => {
-  return {
-      ...state,
-      previousGames,
-      gamesLoaded: true
-  }
-}
+// for future API usage
 
+// const saveGamesToApi = (state, { previousGames }) => {
+//   return {
+//       ...state,
+//       previousGames,
+//       gamesLoaded: true
+//   }
+// }
+
+// main reducer
 const reducer = (state, action) => {
     switch (action.type) {
       case "SEND_NAMES_TO_STATE": 

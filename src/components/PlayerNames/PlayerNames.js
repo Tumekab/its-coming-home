@@ -18,11 +18,11 @@ class playerNames extends React.Component {
         
     }
 
-    handlePlayerName = (event) => {
+        handlePlayerName = (event) => {
         this.setState({ playerName: event.currentTarget.value });  
     }
 
-    handleSubmit(event) {
+        handleSubmit(event) {
         event.preventDefault();
         this.props.handleSubmit({ ...this.state });
 
@@ -33,7 +33,6 @@ class playerNames extends React.Component {
 
     render(){
         let { playerName } = this.state;
-        let { teamsConfirmed } = this.props;
         
         return (
             <>
