@@ -74,8 +74,8 @@ const reducer = (state, action) => {
       return {
         ...initial,
       };
-      case "SAVE_GAMES": 
-        return saveGamesToApi(state, action);
+      // case "SAVE_GAMES": 
+      //   return saveGamesToApi(state, action);
       default: return state;
     };
 };
