@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/football-team-generator/static/css/main.92a4f571.chunk.css",
-    "main.js": "/football-team-generator/static/js/main.41fd3c90.chunk.js",
-    "main.js.map": "/football-team-generator/static/js/main.41fd3c90.chunk.js.map",
-    "runtime-main.js": "/football-team-generator/static/js/runtime-main.64c50354.js",
-    "runtime-main.js.map": "/football-team-generator/static/js/runtime-main.64c50354.js.map",
-    "static/js/2.e6bac946.chunk.js": "/football-team-generator/static/js/2.e6bac946.chunk.js",
-    "static/js/2.e6bac946.chunk.js.map": "/football-team-generator/static/js/2.e6bac946.chunk.js.map",
-    "static/js/3.6db2cc98.chunk.js": "/football-team-generator/static/js/3.6db2cc98.chunk.js",
-    "static/js/3.6db2cc98.chunk.js.map": "/football-team-generator/static/js/3.6db2cc98.chunk.js.map",
-    "index.html": "/football-team-generator/index.html",
-    "static/css/main.92a4f571.chunk.css.map": "/football-team-generator/static/css/main.92a4f571.chunk.css.map",
-    "static/js/2.e6bac946.chunk.js.LICENSE.txt": "/football-team-generator/static/js/2.e6bac946.chunk.js.LICENSE.txt",
-    "static/media/github.d5e23d73.svg": "/football-team-generator/static/media/github.d5e23d73.svg"
+    "main.css": "/its-coming-home/static/css/main.92a4f571.chunk.css",
+    "main.js": "/its-coming-home/static/js/main.41fd3c90.chunk.js",
+    "main.js.map": "/its-coming-home/static/js/main.41fd3c90.chunk.js.map",
+    "runtime-main.js": "/its-coming-home/static/js/runtime-main.69a9c1fb.js",
+    "runtime-main.js.map": "/its-coming-home/static/js/runtime-main.69a9c1fb.js.map",
+    "static/js/2.e6bac946.chunk.js": "/its-coming-home/static/js/2.e6bac946.chunk.js",
+    "static/js/2.e6bac946.chunk.js.map": "/its-coming-home/static/js/2.e6bac946.chunk.js.map",
+    "static/js/3.6db2cc98.chunk.js": "/its-coming-home/static/js/3.6db2cc98.chunk.js",
+    "static/js/3.6db2cc98.chunk.js.map": "/its-coming-home/static/js/3.6db2cc98.chunk.js.map",
+    "index.html": "/its-coming-home/index.html",
+    "static/css/main.92a4f571.chunk.css.map": "/its-coming-home/static/css/main.92a4f571.chunk.css.map",
+    "static/js/2.e6bac946.chunk.js.LICENSE.txt": "/its-coming-home/static/js/2.e6bac946.chunk.js.LICENSE.txt",
+    "static/media/github.d5e23d73.svg": "/its-coming-home/static/media/github.d5e23d73.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.64c50354.js",
+    "static/js/runtime-main.69a9c1fb.js",
     "static/js/2.e6bac946.chunk.js",
     "static/css/main.92a4f571.chunk.css",
     "static/js/main.41fd3c90.chunk.js"
