@@ -1,5 +1,5 @@
 # It's Coming Home: a 5-a-side football team generator.
-This app was produced to fulfill the brief of the individual technical challenge set at the end of the DevelopMe Fellowship. This is the repository for the front-end of the app. To see the app visit [here](https://tumekab.github.io/football-team-generator/#/). Mock up design is [here](https://www.figma.com/file/RcJDSXs8wxnqpxcnsA8QtE/It-s-Coming-Home?node-id=0%3A1).
+This app was produced to fulfill the brief of the individual technical challenge set at the end of the DevelopMe Fellowship. This is the repository for the front-end of the app. To see the app visit [here](https://tumekab.github.io/its-coming-home/#/). Mock up design is [here](https://www.figma.com/file/RcJDSXs8wxnqpxcnsA8QtE/It-s-Coming-Home?node-id=0%3A1).
 
 This app currently doesn't take requests from the API created [here](https://github.com/Tumekab/football-team-generator-database). The API is being re-done to support posting and storing of team scores. The API created currently is fully working and can take get, post, put and delete requests.
 
